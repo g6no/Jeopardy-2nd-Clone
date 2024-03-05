@@ -1,0 +1,133 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Oswald', sans-serif;
+}
+
+.cardy{
+  display: table;
+  width: 100%;
+  height: 75px;
+  background: #2b5172;
+  padding: 1.5%;
+  text-transform: uppercase;
+  border: #ffffff 1px solid;
+  text-align: center;
+
+}
+
+.cardy-questions{
+  display: table;
+  width: 100%;
+  height: 75px;
+  background: #43b0f1;
+  padding: 1.5%;
+  text-transform: uppercase;
+  border: #ffffff 1px solid;
+  text-align: center;
+}
+
+.cardy-questions:hover{
+  background-color: #057dcd;
+}
+
+.card-title, .card-points{
+  font-size: 1.5rem;
+  text-align: center;
+  top: 35%;
+  position: relative;
+  color: #ffffff;
+}
+
+.header{
+  display: flex;
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.ques{
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.ques-thingy{
+  display: flex;
+  justify-content: center;
+}
+
+.question-screen{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  /* background-color: #ffffff; */
+  display: table;
+  background: #2b5172;
+  padding: 1.5% 10%;
+  text-transform: uppercase;
+  border: #ffffff 1px solid;
+  text-align: center;
+}
+
+.double-question-screen{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  /* background-color: #ffffff; */
+  display: table;
+  background: #722b2b;
+  padding: 1.5% 10%;
+  text-transform: uppercase;
+  border: #ffffff 1px solid;
+  text-align: center;
+  color: violet;
+}
+
+.question{
+  color: white;
+  font-size: 2rem;
+}
+
+.answers>li{
+  color: white;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.back-button{
+  margin-top: 2%;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20%;
+  padding: .5%;
+}
+
+.back-button:hover{
+  background-color: white;
+  color: #2b5172;
+}
+
+.cardy-questions-clicked{
+  display: table;
+  width: 100%;
+  height: 75px;
+  background:  #057dcd;
+  padding: 1.5%;
+  text-transform: uppercase;
+  border:#ffffff 1px solid;
+  text-align: center;
+}
+
+.question-img{
+  width: 50%;
+  object-fit: cover;
+}
