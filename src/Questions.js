@@ -48,10 +48,11 @@ function QuestionScreen(props) {
     return (
         <div className={screenStyle}>
             <h5 className="question">{props.question}</h5>
-            {props.id === 7 && <img src="../Q7.png" alt="" className="question-img"/>}
-            {props.id === 8 && <img src="../Q8.png" alt="" className="question-img"/>}
-            {props.id === 12 && <img src="../Q12.png" alt="" className="question-img"/>}
-            {props.id === 19 && <img src="../Q19.png" alt="" className="question-img"/>}
+            {props.id === 7 && <img src="../Q7.png" alt="" className="resized-img"/>}
+            {props.id === 8 && <img src="../Q8.png" alt="" className="resized-img"/>}
+            {props.id === 12 && <img src="../Q12.png" alt="" className="resized-img"/>}
+            {props.id === 17 && <img src="../Q17.png" alt="" className="resized-img"/>}
+            {props.id === 19 && <img src="../Q19.png" alt="" className="resized-img"/>}
             <ol className="answers">
                 {props.answers.map((answer, index) => (
                     <li key={index} type="a">

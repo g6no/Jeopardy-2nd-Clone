@@ -131,3 +131,9 @@
   width: 50%;
   object-fit: cover;
 }
+
+.resized-img {
+  width: 500px; /* Adjust this value to your desired width */
+  height: auto; /* This will maintain the aspect ratio */
+  object-fit: cover;
+}

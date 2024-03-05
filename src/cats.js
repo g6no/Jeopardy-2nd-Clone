@@ -6,7 +6,7 @@
 let cat1 = [
     {points: "200", question: "List at least 7 of the General Engineering Courses that all majors must take (as of 2019 or later)", answers: [], id:1, double_points: false},
     {points: "400", question: "Isaac Newton discovered 3 Laws of motion, explain one of them", answers: [], id:2, double_points: false},
-    {points: "600", question: "What organization is Kuwait Universtity’s College of Engineering and Petroleum accredited by? ", answers: [], id:3, double_points: false},
+    {points: "600", question: "What organization is Kuwait University’s College of Engineering and Petroleum accredited by? ", answers: [], id:3, double_points: false},
     {points: "800", question: "In 1975 an engineer created the first electronic camera while working for what company?", answers: ["Canon", "Kodak", "Nikon", "Sony"], id:4, double_points: false},
 ]
 let cat2 = [
@@ -18,7 +18,7 @@ let cat2 = [
 let cat3 = [
     {points: "200", question: "من هو شاعر النشيد الوطني الكويتي؟", answers: [] , id:9, double_points: false},
     {points: "400", question: "نوع من الطيور، الذي إذا حذفنا منه آخر ٣ حروف يصبح طائر من نوع آخر؟", answers: [] , id:10, double_points: false},
-    {points: "600", question: "أعرب كلمة الجامعة في الجملة التالية: طالباتُ الجامعةِ يُقدّرن العلم", answers: ["صفة مرفوعة وعلامة رفعها الضمة", "", "", ""] , id:11, double_points: false},
+    {points: "600", question: "أعرب كلمة الجامعة في الجملة التالية: طالباتُ الجامعة يُقدّرن العلم", answers: ["مضاف إليه مجرور وعلامة جره الكسرة", "مفعول به منصوب وعلامة نصبه الكسرة", "مفعول به منصوب وعلامة نصبه الفتحة", "مضاف إليه مجرور وعلامة جره الفتحة"] , id:11, double_points: false},
     {points: "800", question: ":من قام المتنبي بهجائه في قصيدته التي مطلعها", answers: ["بدر بن عمّار", "سيف الدولة الحمداني", "كافور الإخشيدي", "المعتصم بالله"] , id:12, double_points: false},
 ]
 let cat4 = [
